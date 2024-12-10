@@ -1,4 +1,4 @@
-## Flashing Guide for AT89S52 using Arduino ISP and AVRDUDE
+## Flashing Guide for AT89S52 Using ArduinoISP and AVRDUDE
 
 ### Objectives
 - Avoid using proprietary or GUI software during the development of 8051 based systems
@@ -64,8 +64,7 @@ Change `COM1` or `/dev/ttyUSB0` to the serial port of your Arduino. It can be ch
 
 Replace `blink.hex` with the path of your compiled firmware.
 
-
-2. Output
+#### Output
 ````
 Reading 22 bytes for flash from input file blink.hex
 Writing 22 bytes to flash
